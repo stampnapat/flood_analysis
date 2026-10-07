@@ -1,0 +1,417 @@
+{
+ "eda_raw_attributes": 48,
+ "eda_median_skew": 5.34,
+ "eda_skew_gt2": 43,
+ "eda_median_zero_share": 0.82,
+ "skew_raw_median": 2.88,
+ "skew_log_median": 0.09,
+ "pca_n_components": 5,
+ "pca_cum_var": 0.849,
+ "pca_pc1_var": 0.449,
+ "kmeans_k_best_silhouette": 2,
+ "kmeans_k_used": 4,
+ "kmeans_seed_stability_ari": 0.8,
+ "kmeans_table": [
+  {
+   "k": 2,
+   "wcss": 390.512,
+   "silhouette": 0.307,
+   "davies_bouldin": 1.229,
+   "smallest_cluster": 24,
+   "seed_stability_ari": 0.981
+  },
+  {
+   "k": 3,
+   "wcss": 317.955,
+   "silhouette": 0.217,
+   "davies_bouldin": 1.433,
+   "smallest_cluster": 14,
+   "seed_stability_ari": 0.886
+  },
+  {
+   "k": 4,
+   "wcss": 272.631,
+   "silhouette": 0.223,
+   "davies_bouldin": 1.323,
+   "smallest_cluster": 10,
+   "seed_stability_ari": 0.8
+  },
+  {
+   "k": 5,
+   "wcss": 243.916,
+   "silhouette": 0.2,
+   "davies_bouldin": 1.325,
+   "smallest_cluster": 4,
+   "seed_stability_ari": 0.633
+  },
+  {
+   "k": 6,
+   "wcss": 213.764,
+   "silhouette": 0.226,
+   "davies_bouldin": 1.179,
+   "smallest_cluster": 3,
+   "seed_stability_ari": 0.661
+  },
+  {
+   "k": 7,
+   "wcss": 193.687,
+   "silhouette": 0.202,
+   "davies_bouldin": 1.224,
+   "smallest_cluster": 3,
+   "seed_stability_ari": 0.692
+  },
+  {
+   "k": 8,
+   "wcss": 175.674,
+   "silhouette": 0.225,
+   "davies_bouldin": 1.186,
+   "smallest_cluster": 3,
+   "seed_stability_ari": 0.67
+  }
+ ],
+ "hdbscan_params": {
+  "min_cluster_size": 3,
+  "min_samples": 2
+ },
+ "hdbscan_n_clusters": 2,
+ "hdbscan_noise": 3,
+ "kmeans_names": {
+  "0": "Low reported impact",
+  "3": "Agricultural basin flooding",
+  "2": "Flash-flood / human impact",
+  "1": "Moderate impact"
+ },
+ "kmeans_profile": [
+  {
+   "km": 0,
+   "name": "Low reported impact",
+   "n_provinces": 10,
+   "f_years_flooded": 4.0,
+   "f_affected_per_1k": 3.29,
+   "f_casualties_per_1M": 0.0,
+   "f_housing_per_100k": 9.39,
+   "f_public_sites_per_1M": 0.54,
+   "f_agri_rai_per_km2": 0.04,
+   "f_fishery_per_1000km2": 0.0,
+   "f_transport_per_1000km2": 1.58,
+   "f_villages_per_1000km2": 92.59,
+   "rain_annual_mm": 1559.59,
+   "rain_max_month_mm": 415.32,
+   "rain_anomaly_pct": -2.3,
+   "severity_index": -3.0
+  },
+  {
+   "km": 1,
+   "name": "Moderate impact",
+   "n_provinces": 24,
+   "f_years_flooded": 6.0,
+   "f_affected_per_1k": 13.32,
+   "f_casualties_per_1M": 0.27,
+   "f_housing_per_100k": 80.72,
+   "f_public_sites_per_1M": 6.57,
+   "f_agri_rai_per_km2": 0.88,
+   "f_fishery_per_1000km2": 5.17,
+   "f_transport_per_1000km2": 6.96,
+   "f_villages_per_1000km2": 42.89,
+   "rain_annual_mm": 1466.54,
+   "rain_max_month_mm": 366.01,
+   "rain_anomaly_pct": -4.07,
+   "severity_index": -0.75
+  },
+  {
+   "km": 2,
+   "name": "Flash-flood / human impact",
+   "n_provinces": 16,
+   "f_years_flooded": 6.0,
+   "f_affected_per_1k": 70.72,
+   "f_casualties_per_1M": 2.28,
+   "f_housing_per_100k": 367.65,
+   "f_public_sites_per_1M": 53.08,
+   "f_agri_rai_per_km2": 0.96,
+   "f_fishery_per_1000km2": 14.9,
+   "f_transport_per_1000km2": 14.26,
+   "f_villages_per_1000km2": 55.12,
+   "rain_annual_mm": 1277.73,
+   "rain_max_month_mm": 350.21,
+   "rain_anomaly_pct": -0.06,
+   "severity_index": 1.33
+  },
+  {
+   "km": 3,
+   "name": "Agricultural basin flooding",
+   "n_provinces": 27,
+   "f_years_flooded": 6.0,
+   "f_affected_per_1k": 35.21,
+   "f_casualties_per_1M": 1.03,
+   "f_housing_per_100k": 310.49,
+   "f_public_sites_per_1M": 21.62,
+   "f_agri_rai_per_km2": 10.15,
+   "f_fishery_per_1000km2": 70.28,
+   "f_transport_per_1000km2": 14.36,
+   "f_villages_per_1000km2": 93.82,
+   "rain_annual_mm": 1244.49,
+   "rain_max_month_mm": 310.33,
+   "rain_anomaly_pct": -2.22,
+   "severity_index": 1.4
+  }
+ ],
+ "hdbscan_noise_provinces": [
+  "Bangkok",
+  "Phra Nakhon Si Ayutthaya",
+  "Sing Buri"
+ ],
+ "moran_I": 0.438,
+ "moran_p": 0.0001,
+ "moran_z": 5.84,
+ "moran_by_year": {
+  "2019": {
+   "I": 0.279,
+   "p": 0.0004
+  },
+  "2020": {
+   "I": 0.397,
+   "p": 0.0001
+  },
+  "2021": {
+   "I": 0.421,
+   "p": 0.0001
+  },
+  "2022": {
+   "I": 0.331,
+   "p": 0.0001
+  },
+  "2023": {
+   "I": 0.255,
+   "p": 0.0012
+  },
+  "2024": {
+   "I": 0.419,
+   "p": 0.0001
+  }
+ },
+ "lisa_counts": {
+  "not significant": 53,
+  "LL (coldspot)": 12,
+  "HH (hotspot)": 9,
+  "LH": 2,
+  "HL": 1
+ },
+ "lisa_hotspots": [
+  "Lampang",
+  "Uttaradit",
+  "Phrae",
+  "Phayao",
+  "Chiang Rai",
+  "Kamphaeng Phet",
+  "Tak",
+  "Sukhothai",
+  "Phetchabun"
+ ],
+ "lisa_coldspots": [
+  "Bangkok",
+  "Samut Prakan",
+  "Pathum Thani",
+  "Chachoengsao",
+  "Bueng Kan",
+  "Nong Khai",
+  "Sakon Nakhon",
+  "Nakhon Phanom",
+  "Ratchaburi",
+  "Samut Sakhon",
+  "Samut Songkhram",
+  "Phetchaburi"
+ ],
+ "internal_eval": [
+  {
+   "index": "K-Means",
+   "clusters": 4.0,
+   "noise": 0.0,
+   "silhouette": 0.223,
+   "davies_bouldin": 1.323,
+   "calinski_harabasz": 28.177
+  },
+  {
+   "index": "HDBSCAN (non-noise)",
+   "clusters": 2.0,
+   "noise": 3.0,
+   "silhouette": 0.473,
+   "davies_bouldin": 0.574,
+   "calinski_harabasz": 17.861
+  }
+ ],
+ "spearman_severity_ref": {
+  "rho": 0.032,
+  "p": 0.7841852230605624
+ },
+ "kruskal_km_p": 0.015808780923818988,
+ "ref_share_by_km": {
+  "0": 0.0173,
+  "1": 0.0054,
+  "2": 0.0011,
+  "3": 0.0164
+ },
+ "external_eval": [
+  {
+   "method": "K-Means K3 – Agricultural basin flooding",
+   "flagged": 27,
+   "precision": 0.444,
+   "recall": 0.6,
+   "f1": 0.511,
+   "random_f1": 0.297,
+   "perm_p": 0.007
+  },
+  {
+   "method": "K-Means K2 – Flash-flood / human impact",
+   "flagged": 16,
+   "precision": 0.062,
+   "recall": 0.05,
+   "f1": 0.056,
+   "random_f1": 0.231,
+   "perm_p": 0.999
+  },
+  {
+   "method": "K-Means both high-impact clusters",
+   "flagged": 43,
+   "precision": 0.302,
+   "recall": 0.65,
+   "f1": 0.413,
+   "random_f1": 0.353,
+   "perm_p": 0.247
+  },
+  {
+   "method": "HDBSCAN top cluster (H1)",
+   "flagged": 71,
+   "precision": 0.239,
+   "recall": 0.85,
+   "f1": 0.374,
+   "random_f1": 0.406,
+   "perm_p": 0.966
+  },
+  {
+   "method": "LISA HH hotspots",
+   "flagged": 9,
+   "precision": 0.111,
+   "recall": 0.05,
+   "f1": 0.069,
+   "random_f1": 0.163,
+   "perm_p": 0.944
+  },
+  {
+   "method": "Severity index top quartile",
+   "flagged": 20,
+   "precision": 0.25,
+   "recall": 0.25,
+   "f1": 0.25,
+   "random_f1": 0.259,
+   "perm_p": 0.647
+  }
+ ],
+ "feature_vs_ref_spearman": [
+  {
+   "index": "villages_per_1000km2",
+   "rho": 0.449,
+   "p": 0.0
+  },
+  {
+   "index": "agri_rai_per_km2",
+   "rho": 0.321,
+   "p": 0.004
+  },
+  {
+   "index": "fishery_per_1000km2",
+   "rho": 0.146,
+   "p": 0.204
+  },
+  {
+   "index": "housing_per_100k",
+   "rho": 0.059,
+   "p": 0.612
+  },
+  {
+   "index": "affected_per_1k",
+   "rho": -0.012,
+   "p": 0.915
+  },
+  {
+   "index": "casualties_per_1M",
+   "rho": -0.02,
+   "p": 0.861
+  },
+  {
+   "index": "transport_per_1000km2",
+   "rho": -0.123,
+   "p": 0.288
+  },
+  {
+   "index": "public_sites_per_1M",
+   "rho": -0.175,
+   "p": 0.129
+  },
+  {
+   "index": "years_flooded",
+   "rho": -0.238,
+   "p": 0.037
+  }
+ ],
+ "moran_ref": {
+  "I": 0.307,
+  "p": 0.0002
+ },
+ "lisa_ref_hotspots": [
+  "Bangkok",
+  "Samut Prakan",
+  "Nonthaburi",
+  "Pathum Thani",
+  "Phra Nakhon Si Ayutthaya",
+  "Ang Thong",
+  "Sing Buri",
+  "Songkhla"
+ ],
+ "agreement_counts": {
+  "both lower": 42,
+  "recurrence only": 15,
+  "impact only": 15,
+  "both high": 5
+ },
+ "agreement_both_high": [
+  "Nakhon Sawan",
+  "Sukhothai",
+  "Nakhon Si Thammarat",
+  "Phatthalung",
+  "Pattani"
+ ],
+ "agreement_impact_only": [
+  "Nakhon Ratchasima",
+  "Chaiyaphum",
+  "Maha Sarakham",
+  "Kalasin",
+  "Chiang Mai",
+  "Lampang",
+  "Phrae",
+  "Nan",
+  "Phayao",
+  "Chiang Rai",
+  "Mae Hong Son",
+  "Nakhon Pathom",
+  "Chumphon",
+  "Yala",
+  "Narathiwat"
+ ],
+ "agreement_recurrence_only": [
+  "Bangkok",
+  "Samut Prakan",
+  "Nonthaburi",
+  "Pathum Thani",
+  "Phra Nakhon Si Ayutthaya",
+  "Ang Thong",
+  "Chachoengsao",
+  "Prachin Buri",
+  "Yasothon",
+  "Roi Et",
+  "Nakhon Phanom",
+  "Phitsanulok",
+  "Phichit",
+  "Suphan Buri",
+  "Songkhla"
+ ]
+}

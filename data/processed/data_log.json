@@ -1,0 +1,55 @@
+{
+  "ddpm_meta": {
+    "2562": {
+      "rows": 61,
+      "dropped_total_rows": 1,
+      "level": "province"
+    },
+    "2563": {
+      "rows": 1761,
+      "dropped_total_rows": 66,
+      "level": "district-event"
+    },
+    "2564": {
+      "rows": 2837,
+      "dropped_total_rows": 75,
+      "level": "district-event"
+    },
+    "2565": {
+      "rows": 4430,
+      "dropped_total_rows": 1,
+      "level": "district-event"
+    },
+    "2566": {
+      "rows": 74,
+      "dropped_total_rows": 1,
+      "level": "province"
+    },
+    "2567": {
+      "rows": 34881,
+      "dropped_total_rows": 0,
+      "level": "village"
+    }
+  },
+  "rain_inconsistent_rows": {
+    "2026": 539
+  },
+  "ldd_provinces_with_data": 72,
+  "province_years_reported": 420,
+  "imputed_people_from_households": 8,
+  "imputed_households_from_people": 0,
+  "median_people_per_household": 2.742698882505046,
+  "province_year_shape": [
+    462,
+    25
+  ],
+  "n_raw_ddpm_attributes": {
+    "2562": 49,
+    "2563": 60,
+    "2564": 59,
+    "2565": 56,
+    "2566": 66,
+    "2567": 44
+  },
+  "n_harmonised_attributes": 13
+}

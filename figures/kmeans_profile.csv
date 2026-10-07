@@ -1,0 +1,5 @@
+km,name,n_provinces,f_years_flooded,f_affected_per_1k,f_casualties_per_1M,f_housing_per_100k,f_public_sites_per_1M,f_agri_rai_per_km2,f_fishery_per_1000km2,f_transport_per_1000km2,f_villages_per_1000km2,rain_annual_mm,rain_max_month_mm,rain_anomaly_pct,severity_index
+0,Low reported impact,10,4.0,3.29,0.0,9.39,0.54,0.04,0.0,1.58,92.59,1559.59,415.32,-2.3,-3.0
+1,Moderate impact,24,6.0,13.32,0.27,80.72,6.57,0.88,5.17,6.96,42.89,1466.54,366.01,-4.07,-0.75
+2,Flash-flood / human impact,16,6.0,70.72,2.28,367.65,53.08,0.96,14.9,14.26,55.12,1277.73,350.21,-0.06,1.33
+3,Agricultural basin flooding,27,6.0,35.21,1.03,310.49,21.62,10.15,70.28,14.36,93.82,1244.49,310.33,-2.22,1.4
