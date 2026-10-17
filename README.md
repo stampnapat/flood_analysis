@@ -36,3 +36,4 @@ The GISTDA recurrent-flood API needs a registered API key, so the LDD recurrent-
 - `data/processed/results.json` – every number quoted in the slides
 - `figures/` – all charts and maps
 - `slides/Flood_Clustering_Thailand.pptx` – presentation (Thai speaker notes for the video)
+- `report/Flood_Clustering_Report.docx` / `.pdf` – written report (`NODE_PATH=$PWD/slides/node_modules node report/build_report.js`, then update the table of contents in Word)
